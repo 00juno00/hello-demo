@@ -3,6 +3,7 @@ pipeline {
     string(name: 'IMAGE_NAME', defaultValue: 'hello')
     string(name: 'CONTAINER_NAME', defaultValue: 'hello')
   }
+  
   tools {
     jdk 'jdk-11'
   }
